@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const progressText = document.getElementById('progressText');
     const modal = document.getElementById('successModal');
     const closeModalBtn = document.getElementById('closeModalBtn');
-    
+
     // State to hold user selections
     let selections = {};
     const totalCategories = oscarData.length;
@@ -30,9 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 card.className = 'nominee-card glass';
                 card.dataset.category = category.id;
                 card.dataset.nominee = nominee.id;
-                
+
                 // Add Image if exists, else a placeholder gradient
-                const imageHtml = nominee.image 
+                const imageHtml = nominee.image
                     ? `<img src="${nominee.image}" alt="${nominee.name}" class="nominee-image">`
                     : `<div class="nominee-image" style="background: linear-gradient(45deg, #1a1a1a, #333);"></div>`;
 
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function checkFormValidity() {
         const answeredCount = Object.keys(selections).length;
         progressText.textContent = `${answeredCount} / ${totalCategories} categorias respondidas`;
-        
+
         const hasName = userNameInput.value.trim().length > 1;
         const hasAllAnswers = answeredCount === totalCategories;
 
@@ -89,14 +89,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- 4. Submit Data ---
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        
+
         const userName = userNameInput.value.trim();
-        if(!userName) return;
+        if (!userName) return;
 
         // Disable button and show loader
         const btnText = submitBtn.querySelector('span');
         const loader = submitBtn.querySelector('.loader');
-        
+
         submitBtn.disabled = true;
         btnText.style.display = 'none';
         loader.classList.remove('hidden');
@@ -112,12 +112,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // HERE IS THE GOOGLE SHEETS WEBHOOK URL
         // O usuário precisará trocar essa URL por uma gerada pelo Google Apps Script
-        const GOOGLE_SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxGIT4UXJbIJS42FtiPq9EEZL0o72k2MARo62on4x3VaRvgum8I82sdJ-t1N9RwkIrvjA/exec"; 
+        const GOOGLE_SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbwEBYQ0AGeFaOIHwgktjWm_S4QTUusTVVnaPCzgQxcy3uMvio0Z8Gwhj0XUK-hTdo0ThQ/exec";
 
         try {
             // Simulando um delay mínimo para animação
             await new Promise(resolve => setTimeout(resolve, 500));
-            
+
             const response = await fetch(GOOGLE_SHEETS_WEBHOOK_URL, {
                 method: 'POST',
                 mode: 'no-cors', // Importante para contornar problemas de CORS no Google Apps Script
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Show success modal
             modal.classList.remove('hidden');
-            
+
         } catch (error) {
             console.error("Erro ao enviar dados:", error);
             alert("Ocorreu um erro ao enviar seus palpites. Tente novamente.");
