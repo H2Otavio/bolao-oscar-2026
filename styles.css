@@ -456,6 +456,12 @@ input[type="text"]:focus {
         font-size: 2rem;
     }
 
+    /* Submit Section on Mobile */
+    .submit-section {
+        bottom: 0.5rem; /* Abaixa a barra de enviar e de status */
+        padding: 1.5rem 1rem;
+    }
+    
     /* Mobile Carousel */
     .nominees-grid {
         display: flex;
