@@ -33,7 +33,7 @@ const oscarData = [
             { id: "ator1", name: "Timothée Chalamet", description: "Marty Supreme", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgnYUPHeq353aE3C_rd6gpgxLiocIZUJ3ySQ&s" },
             { id: "ator2", name: "Leonardo DiCaprio", description: "One Battle After Another", image: "https://upload.wikimedia.org/wikipedia/commons/4/46/Leonardo_Dicaprio_Cannes_2019.jpg" },
             { id: "ator3", name: "Ethan Hawke", description: "Blue Moon", image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/BlueMoonBFILFF161025-53_%2854875551295%29_%28cropped_2%29.jpg" },
-            { id: "ator4", name: "Michael B. Jordan", description: "Sinners", image: "https://static.wikia.nocookie.net/dublagem/images/1/16/Michael_B._Jordan.png/revision/latest?cb=20210929204510&path-prefix=pt-br" },
+            { id: "ator4", name: "Michael B. Jordan", description: "Sinners", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_RxAv5CsOaJJU0eX5-cp43PXQ4hd3cVrnpA&s" },
             { id: "ator5", name: "Wagner Moura", description: "The Secret Agent", image: "https://br.web.img3.acsta.net/img/a2/a7/a2a78bdd4d8f989ba982b8a0292690ca.png" }
         ]
     },
@@ -54,9 +54,9 @@ const oscarData = [
         nominees: [
             { id: "atorc1", name: "Benicio del Toro", description: "One Battle After Another", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Benicio_Del_Toro_-_Guardians_of_the_Galaxy_premiere_-_July_2014_%28cropped%29.jpg/960px-Benicio_Del_Toro_-_Guardians_of_the_Galaxy_premiere_-_July_2014_%28cropped%29.jpg" },
             { id: "atorc2", name: "Jacob Elordi", description: "Frankenstein", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx6rSefyk1sYRCuQ7enzlR2w8Xm89RxfIemA&s" },
-            { id: "atorc3", name: "Delroy Lindo", description: "Sinners", image: "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/41/Delroy_Lindo.jpg/revision/latest?cb=20160126194152" },
+            { id: "atorc3", name: "Delroy Lindo", description: "Sinners", image: "https://ntvb.tmsimg.com/assets/assets/71122_v9_bc.jpg" },
             { id: "atorc4", name: "Sean Penn", description: "One Battle After Another", image: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/sean_penn.png" },
-            { id: "atorc5", name: "Stellan Skarsgård", description: "Sentimental Value", image: "https://static.wikia.nocookie.net/dublagem/images/f/fb/Stellan%2BSkarsgard%2B.jpg/revision/latest?cb=20211029232744&path-prefix=pt-br" }
+            { id: "atorc5", name: "Stellan Skarsgård", description: "Sentimental Value", image: "https://resizing.flixster.com/12soLONgbTkJCzuovHzIeHDsaU4=/fit-in/352x330/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/238828_v9_bb.jpg" }
         ]
     },
     {
@@ -65,7 +65,7 @@ const oscarData = [
         nominees: [
             { id: "atrizc1", name: "Elle Fanning", description: "Sentimental Value", image: "https://br.web.img3.acsta.net/c_310_420/pictures/19/10/17/03/08/2153588.jpg" },
             { id: "atrizc2", name: "Inga Ibsdotter Lilleaas", description: "Sentimental Value", image: "https://image.tmdb.org/t/p/w500/wlZPIgnXMpK3Nvvhg0bZzmWxZDH.jpg" },
-            { id: "atrizc3", name: "Amy Madigan", description: "Weapons", image: "https://static.wikia.nocookie.net/dublagem/images/9/93/Amy_Madigan.jpg/revision/latest?cb=20250913014244&path-prefix=pt-br" },
+            { id: "atrizc3", name: "Amy Madigan", description: "Weapons", image: "https://br.web.img2.acsta.net/c_310_420/img/85/6b/856b1b20da1b818951aee7e8d05b03cf.webp" },
             { id: "atrizc4", name: "Wunmi Mosaku", description: "Sinners", image: "https://m.media-amazon.com/images/M/MV5BZTViMjhmNzYtZjNlYi00ZDk3LTlkODEtNGEyYjc4NjEyYWVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
             { id: "atrizc5", name: "Teyana Taylor", description: "One Battle After Another", image: "https://br.web.img3.acsta.net/c_310_420/pictures/18/07/30/21/45/5820966.jpg" }
         ]
