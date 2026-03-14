@@ -19,52 +19,52 @@ const oscarData = [
         id: "melhor-diretor",
         title: "Melhor Diretor",
         nominees: [
-            { id: "dir1", name: "Chloé Zhao", description: "Hamnet", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Chloezhao_%28cropped%29.jpg/640px-Chloezhao_%28cropped%29.jpg" },
-            { id: "dir2", name: "Josh Safdie", description: "Marty Supreme", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Josh_Safdie_-_2010_%2841523623231%29_%28cropped%29.jpg/640px-Josh_Safdie_-_2010_%2841523623231%29_%28cropped%29.jpg" },
-            { id: "dir3", name: "Paul Thomas Anderson", description: "One Battle After Another", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Paul_Thomas_Anderson_2022_%281%29_%28cropped%29.jpg/640px-Paul_Thomas_Anderson_2022_%281%29_%28cropped%29.jpg" },
-            { id: "dir4", name: "Joachim Trier", description: "Sentimental Value", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Joachim_Trier-9987.jpg/640px-Joachim_Trier-9987.jpg" },
-            { id: "dir5", name: "Ryan Coogler", description: "Sinners", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ryan_Coogler_by_Gage_Skidmore_%28cropped%29.jpg/640px-Ryan_Coogler_by_Gage_Skidmore_%28cropped%29.jpg" }
+            { id: "dir1", name: "Chloé Zhao", description: "Hamnet", image: "https://citacoes.in/media/authors/chloe-zhao.jpeg" },
+            { id: "dir2", name: "Josh Safdie", description: "Marty Supreme", image: "https://images.fandango.com/ImageRenderer/300/0/redesign/static/img/default_poster.png/0/images/masterrepository/performer%20images/591026/JoshSafdie2017.jpg" },
+            { id: "dir3", name: "Paul Thomas Anderson", description: "One Battle After Another", image: "https://media.gq.com/photos/65fdeacbc7ec45b8c45ad4a6/2:3/w_1770,h_2655,c_limit/GettyImages-1385593633.jpg" },
+            { id: "dir4", name: "Joachim Trier", description: "Sentimental Value", image: "https://upload.wikimedia.org/wikipedia/commons/9/97/Joachim_Trier-9987.jpg" },
+            { id: "dir5", name: "Ryan Coogler", description: "Sinners", image: "https://i0.wp.com/www.parkrecord.com/wp-content/uploads/2022/11/Ryan-Coogler-Approved-Portrait-PC-Ricky-Middlesworth-scaled-1.jpg?fit=1978%2C2560&ssl=1" }
         ]
     },
     {
         id: "melhor-ator",
         title: "Melhor Ator",
         nominees: [
-            { id: "ator1", name: "Timothée Chalamet", description: "Marty Supreme", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Timothee_Chalamet_-_2024_%2865_of_65%29_-_54213943900_%28cropped%29.jpg/640px-Timothee_Chalamet_-_2024_%2865_of_65%29_-_54213943900_%28cropped%29.jpg" },
+            { id: "ator1", name: "Timothée Chalamet", description: "Marty Supreme", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgnYUPHeq353aE3C_rd6gpgxLiocIZUJ3ySQ&s" },
             { id: "ator2", name: "Leonardo DiCaprio", description: "One Battle After Another", image: "https://upload.wikimedia.org/wikipedia/commons/4/46/Leonardo_Dicaprio_Cannes_2019.jpg" },
-            { id: "ator3", name: "Ethan Hawke", description: "Blue Moon", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ethan_Hawke_2018.jpg/640px-Ethan_Hawke_2018.jpg" },
-            { id: "ator4", name: "Michael B. Jordan", description: "Sinners", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/2018-05-12-_Cannes-L%27acteur_Michael_B._Jordan-2721_%2842075892224%29.jpg/640px-2018-05-12-_Cannes-L%27acteur_Michael_B._Jordan-2721_%2842075892224%29.jpg" },
-            { id: "ator5", name: "Wagner Moura", description: "The Secret Agent", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wagner_Moura-6546_%283x4%29.jpg/640px-Wagner_Moura-6546_%283x4%29.jpg" }
+            { id: "ator3", name: "Ethan Hawke", description: "Blue Moon", image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/BlueMoonBFILFF161025-53_%2854875551295%29_%28cropped_2%29.jpg" },
+            { id: "ator4", name: "Michael B. Jordan", description: "Sinners", image: "https://static.wikia.nocookie.net/dublagem/images/1/16/Michael_B._Jordan.png/revision/latest?cb=20210929204510&path-prefix=pt-br" },
+            { id: "ator5", name: "Wagner Moura", description: "The Secret Agent", image: "https://br.web.img3.acsta.net/img/a2/a7/a2a78bdd4d8f989ba982b8a0292690ca.png" }
         ]
     },
     {
         id: "melhor-atriz",
         title: "Melhor Atriz",
         nominees: [
-            { id: "atriz1", name: "Jessie Buckley", description: "Hamnet", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Jessie_Buckley_2019.jpg/640px-Jessie_Buckley_2019.jpg" },
-            { id: "atriz2", name: "Rose Byrne", description: "If I Had Legs I'd Kick You", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Rose_Byrne_Blue_Moon-21_%28cropped%29.jpg/640px-Rose_Byrne_Blue_Moon-21_%28cropped%29.jpg" },
-            { id: "atriz3", name: "Kate Hudson", description: "Song Sung Blue", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Kate_Hudson_at_the_2024_Toronto_International_Film_Festival_%28cropped_2%29.jpg/640px-Kate_Hudson_at_the_2024_Toronto_International_Film_Festival_%28cropped_2%29.jpg" },
-            { id: "atriz4", name: "Renate Reinsve", description: "Sentimental Value", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Renate_Reinsve_at_Berlinale_2024_%28cropped%29.jpg/640px-Renate_Reinsve_at_Berlinale_2024_%28cropped%29.jpg" },
-            { id: "atriz5", name: "Emma Stone", description: "Bugonia", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Emma_Stone_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg/640px-Emma_Stone_at_the_2024_New_York_Film_Festival_2_%28cropped%29.jpg" }
+            { id: "atriz1", name: "Jessie Buckley", description: "Hamnet", image: "https://image.tmdb.org/t/p/w500/jKhDQOMVQ1JP4gaUXCQg75gvsrm.jpg" },
+            { id: "atriz2", name: "Rose Byrne", description: "If I Had Legs I'd Kick You", image: "https://image.tmdb.org/t/p/w500/6YauDiiTBwRGC1xnwspPmNvPWUu.jpg" },
+            { id: "atriz3", name: "Kate Hudson", description: "Song Sung Blue", image: "https://upload.wikimedia.org/wikipedia/commons/8/8d/Kate_Hudson_at_the_2024_Toronto_International_Film_Festival_%28cropped_2%29.jpg" },
+            { id: "atriz4", name: "Renate Reinsve", description: "Sentimental Value", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwAaP4PnvBtxKkoB4Oxne30sYslI7pxt2CCw&s" },
+            { id: "atriz5", name: "Emma Stone", description: "Bugonia", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkHW7Dv3iOBwwHOmhLxtSmgaHGEyYjQIcMug&s" }
         ]
     },
     {
         id: "melhor-ator-coadjuvante",
         title: "Melhor Ator Coadjuvante",
         nominees: [
-            { id: "atorc1", name: "Benicio del Toro", description: "One Battle After Another", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Benicio_Del_Toro_-_Guardians_of_the_Galaxy_premiere_-_July_2014_%28cropped%29.jpg/640px-Benicio_Del_Toro_-_Guardians_of_the_Galaxy_premiere_-_July_2014_%28cropped%29.jpg" },
+            { id: "atorc1", name: "Benicio del Toro", description: "One Battle After Another", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Benicio_Del_Toro_-_Guardians_of_the_Galaxy_premiere_-_July_2014_%28cropped%29.jpg/960px-Benicio_Del_Toro_-_Guardians_of_the_Galaxy_premiere_-_July_2014_%28cropped%29.jpg" },
             { id: "atorc2", name: "Jacob Elordi", description: "Frankenstein", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx6rSefyk1sYRCuQ7enzlR2w8Xm89RxfIemA&s" },
-            { id: "atorc3", name: "Delroy Lindo", description: "Sinners", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Delroy_Lindo_cropped.jpg/640px-Delroy_Lindo_cropped.jpg" },
-            { id: "atorc4", name: "Sean Penn", description: "One Battle After Another", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sean_Penn_by_Sachyn_Mital_%28cropped%29_2.jpg/640px-Sean_Penn_by_Sachyn_Mital_%28cropped%29_2.jpg" },
-            { id: "atorc5", name: "Stellan Skarsgård", description: "Sentimental Value", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Stellan_Skarsg%C3%A5rd-9696.jpg/640px-Stellan_Skarsg%C3%A5rd-9696.jpg" }
+            { id: "atorc3", name: "Delroy Lindo", description: "Sinners", image: "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/41/Delroy_Lindo.jpg/revision/latest?cb=20160126194152" },
+            { id: "atorc4", name: "Sean Penn", description: "One Battle After Another", image: "https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/sean_penn.png" },
+            { id: "atorc5", name: "Stellan Skarsgård", description: "Sentimental Value", image: "https://static.wikia.nocookie.net/dublagem/images/f/fb/Stellan%2BSkarsgard%2B.jpg/revision/latest?cb=20211029232744&path-prefix=pt-br" }
         ]
     },
     {
         id: "melhor-atriz-coadjuvante",
         title: "Melhor Atriz Coadjuvante",
         nominees: [
-            { id: "atrizc1", name: "Elle Fanning", description: "Sentimental Value", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Elle_Fanning_2019_by_Glenn_Francis.jpg/640px-Elle_Fanning_2019_by_Glenn_Francis.jpg" },
-            { id: "atrizc2", name: "Inga Ibsdotter Lilleaas", description: "Sentimental Value", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Inga_Ibsdotter_Lilleaas_at_TIFF_2025.jpg/640px-Inga_Ibsdotter_Lilleaas_at_TIFF_2025.jpg" },
+            { id: "atrizc1", name: "Elle Fanning", description: "Sentimental Value", image: "https://br.web.img3.acsta.net/c_310_420/pictures/19/10/17/03/08/2153588.jpg" },
+            { id: "atrizc2", name: "Inga Ibsdotter Lilleaas", description: "Sentimental Value", image: "https://image.tmdb.org/t/p/w500/wlZPIgnXMpK3Nvvhg0bZzmWxZDH.jpg" },
             { id: "atrizc3", name: "Amy Madigan", description: "Weapons", image: "https://static.wikia.nocookie.net/dublagem/images/9/93/Amy_Madigan.jpg/revision/latest?cb=20250913014244&path-prefix=pt-br" },
             { id: "atrizc4", name: "Wunmi Mosaku", description: "Sinners", image: "https://m.media-amazon.com/images/M/MV5BZTViMjhmNzYtZjNlYi00ZDk3LTlkODEtNGEyYjc4NjEyYWVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" },
             { id: "atrizc5", name: "Teyana Taylor", description: "One Battle After Another", image: "https://br.web.img3.acsta.net/c_310_420/pictures/18/07/30/21/45/5820966.jpg" }
